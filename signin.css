@@ -1,0 +1,220 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* background: url(https://images.pexels.com/photos/1503009/pexels-photo-1503009.jpeg);
+    background-repeat: no-repeat;
+    background-attachment      : fixed;
+    background-size: cover; */
+    
+    font-family: 'Nunito', sans-serif;
+     box-sizing: border-box;
+     
+
+}
+body{
+    background: url(https://images.pexels.com/photos/5868629/pexels-photo-5868629.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-attachment      : fixed;
+    background-size: cover;
+}
+
+.left
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.logo
+{
+    height: 100px;
+    padding-right: 10px;
+}
+li, a, button
+{
+    
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    
+}
+.logo
+{
+    cursor: pointer;
+}
+.nav-links
+{
+    list-style: none;
+    cursor: pointer;
+}
+nav-links 
+{
+    text-decoration: underline;
+}
+.nav-links li 
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links  a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.nav-links :hover
+{
+    color: black    ;
+    text-decoration: underline;
+
+}
+
+.but
+{
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+but:hover 
+{
+    background-color: blue;
+}
+.mid
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#login{
+    height:400px;
+    width:350px;
+   border: 2px solid black;
+    color: white;
+    top:55%;
+    left:25%;
+   position: absolute;
+   transform:translate(-50%,-50%);
+   box-sizing: border-box;
+    border-radius: 10px;
+    padding:70px 30px;
+    margin-left: 400px;
+     }
+     .profile{
+         width: 100px;
+         height:100px;
+         border-radius: 50%;
+         position: absolute;
+         top:-50px;
+         left:calc(50% - 50px);
+     }
+       
+     h1{
+         margin:0;
+         padding: 0 0 20px;
+         text-align: center;
+         font-size: 22px ;
+     }
+     label{
+         margin: 0;
+         padding: 0;
+         font-weight: bolder;
+     }
+     #login input{
+         width:100%;
+         margin-bottom: 20px;
+     }
+     #login input[type="text"], input[type="password"]
+     {
+         border:none;
+         border-bottom: 1px solid rgb(231, 106, 106);
+         background: transparent;
+         outline:none;
+         height:40px;
+         color:rgb(14, 13, 13);
+         font-size:20px;
+     }
+     #login input[type="email"], input[type="password"]
+     {
+         border:none;
+         border-bottom: 1px solid rgb(231, 106, 106);
+         background: transparent;
+         outline:none;
+         height:40px;
+         color:rgb(14, 13, 13);
+         font-size:20px;
+     }
+     #login input[type="submit"]
+     {
+         border:none;
+         outline: none;
+         height: 40px;
+         background: rgb(230, 144, 144);
+         color:rgb(32, 11, 11);
+         font-size: 16px;
+         border-radius: 20px;
+     }
+     #login input[type="submit"]:hover{
+         cursor: pointer;
+         background: #ffc107;
+         color:#000;
+     }
+     #login a{
+         text-decoration: none;
+         font-size: 12px;
+         line-height:20px;
+         color: black;
+     }
+     #login a:hover{
+         color: black;
+     }
+     .line
+     {
+         position: absolute;
+        
+     }
+     .line h1
+     {
+          font-family: 'Cedarville Cursive', cursive;;
+     }
+     .line1
+     {
+         position: relative;
+         left: 5%;
+         text-decoration: underline;
+     }
+     .line2 
+     {
+         position: relative;
+         left: 50%;
+         text-decoration: underline;
+     }
+     .button
+     {
+         color: black;
+         cursor: pointer;
+     }
+     .button :hover {
+        background-color: blue;
+     }
+     .but :hover
+     {
+         background-color:  blue;
+     }
+     .customer
+     {
+         text-decoration: red;
+     }
+    .thh
+    {
+        display: contents;
+    }
